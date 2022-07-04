@@ -1,4 +1,5 @@
 import type { Component } from 'solid-js'
+import Counter from './components/Counter'
 
 import logo from './lib/logo.svg'
 
@@ -22,6 +23,8 @@ const App: Component = () => {
         >
           Learn Solid
         </a>
+
+        <Counter />
       </header>
     </div>
   )
